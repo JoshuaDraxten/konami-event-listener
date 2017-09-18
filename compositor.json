@@ -1,0 +1,83 @@
+{
+  "name": "JoshuaDraxten/konami-event-listener",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Swiss",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/SwissHeader",
+      "article": "article/SwissArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Helvetica Neue\", Helvetica, Arial, sans-serif",
+    "heading": {
+      "fontWeight": 700,
+      "letterSpacing": "-0.01em"
+    },
+    "layout": {
+      "fluid": true
+    },
+    "colors": {
+      "text": "#000",
+      "background": "#fff",
+      "primary": "#05a",
+      "secondary": "#444",
+      "highlight": "#f30",
+      "border": "#ccc",
+      "muted": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/JoshuaDraxten/konami-event-listener",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "konami-event-listener",
+      "subhead": "Adds the event listener that always should have been standard in all browsers.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "konami-event-listener: Adds the event listener that always should have been standard in all browsers.",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "JoshuaDraxten",
+          "repo": "konami-event-listener"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>The Javascript Konami Event Listener</h1>\n<h3>Adds the event listener that always should have been standard in all browsers.</h3>\n<h2>Use</h2>\n<p>You can use the konami event listener like you would any event listener. At the moment, it only applies to the document.</p>\n<pre><span class=\"hljs-built_in\">document</span>.onKonami = <span class=\"hljs-function\"><span class=\"hljs-keyword\">function</span>(<span class=\"hljs-params\"></span>)</span>{\n    alert(<span class=\"hljs-string\">&quot;KONAMI!&quot;</span>);\n}</pre><p>If you are unaware what the konami code is it is a cheat code that is activated by hitting the following keys in order:</p>\n<p><strong>Up Up Down Down Left Right Left Right B A</strong></p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/JoshuaDraxten/konami-event-listener",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/JoshuaDraxten",
+          "text": "JoshuaDraxten"
+        }
+      ]
+    }
+  ]
+}
