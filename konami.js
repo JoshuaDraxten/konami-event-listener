@@ -13,5 +13,4 @@ document.addEventListener('keydown', function( e ){
   } else {
     konami_i=0;
   }
-  console.log( konami_i );
 });
